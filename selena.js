@@ -1,11 +1,19 @@
 const webdriver = require('selenium-webdriver');
 const fs = require ('fs');
 
+const babyDriver = new webdriver.Builder();
 
 async function initBrowser() {
-    let driver = await new webdriver.Builder().forBrowser('safari').build();
-    let navigateToPpage = await driver.get('http://www.tfwiki.net');
+    let driver = babyDriver.forBrowser('safari').build(); // Build a new web session
+    let navigateToPage = await driver.get('http://www.tfwiki.net'); // Open a URL
+
+
 }
 
 
-initBrowser();
+
+
+
+initBrowser().then(function(){
+    console.log("Finished!");
+});
