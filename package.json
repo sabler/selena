@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/sabler/selena#readme",
   "dependencies": {
-    "@wdio/cli": "^5.16.7"
+    "@wdio/cli": "^5.16.7",
+    "wdio-selenium-standalone-service": "0.0.12"
   },
   "devDependencies": {
     "@wdio/local-runner": "^5.16.8",
