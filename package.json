@@ -18,5 +18,13 @@
   "homepage": "https://github.com/sabler/selena#readme",
   "dependencies": {
     "@wdio/cli": "^5.16.7"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^5.16.8",
+    "@wdio/mocha-framework": "^5.16.5",
+    "@wdio/spec-reporter": "^5.16.5",
+    "@wdio/sync": "^5.16.8",
+    "chromedriver": "^78.0.1",
+    "wdio-chromedriver-service": "^5.0.2"
   }
 }
